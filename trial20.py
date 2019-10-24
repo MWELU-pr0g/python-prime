@@ -1,3 +1,5 @@
-for i in range(100):
+def isPrime(i):
     if i*1==i and i%2==1:
-        print(i)
+        return True
+    return False
+
